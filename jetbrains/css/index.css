@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:"";}
+abbr,acronym{border:0;}.clearfix:after{visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0;}
+* html .clearfix{zoom:1;}*:first-child+html .clearfix{zoom:1;}
+.clear{ clear: both;}
+.m0{ margin: 0px auto;}
+.w980{ width: 980px; height: auto; overflow: hidden;}
+.w708{ width: 708px; height: auto; overflow: hidden;}
+.w354{ width: 354px; height: auto; overflow: hidden;}
+.w218{ width: 218px; height: auto; overflow: hidden;}
+.header{width: 100%; height:auto; overflow: hidden; background-image: url("../images/bg01.png");}
+.top{ width: 980px; height: 85px; overflow: hidden;}
+.logo{width: 195px; height: 75px; overflow: hidden; margin: 5px 0px; float:left; background: url("../images/logoJB.svg")no-repeat;}
+.nav{ float: right; list-style: none;}
+.nav li{ float: left; padding: 0px 14px; height: 85px; font:16px/85px "Microsoft YaHei";}
+.nav li a:link,.nav li a:visited{ color: #666666; text-decoration: none;}
+.nav li a:hover,.nav li a:active{ color: #00f; text-decoration:none;}
+.search_txt{border: 1px solid #BDBBBC; border-radius: 3px; width: 150px; height: 18px;box-shadow:2px 2px 2px rgba(0,0,0,0.1) inset;}
+.Search{ width: 26px; height: 26px; padding: 2px; background: url("../images/icoSearch.svg")no-repeat; border:medium none; margin: 0px 2px;}
+#img{ width: 830px; height: auto; float: left; overflow: hidden;}
+#prea,#next{ width: 30px; height: 55px; overflow: hidden; float: left; background:url("../images/arrow_carousel.png")no-repeat; margin-top: 255px;}
+#prea{ background-position: 0px -103px; margin-right: 45px;}
+#next{ background-position: 0px -166px; margin-left: 45px;}
+.fl{ float: left;}
+.fr{ float: right;}
+.bor01{ border-bottom: 1px solid #D3B9BA;}
+.products-menu{ text-align: right; padding:10px 50px; 10px 0px;}
+.products-menu span{ padding: 0px 10px; font:16px/30px "Microsoft YaHei";}
+.product-name span{ width: 64px; height: 64px; overflow: hidden;  background-image: url("../images/sprite_logos.svg"); display: inline-block; vertical-align: top;}
+#sp01{ background-position: 0 0;}
+#sp02{ background-position: 0 -100%;}
+#sp03{ background-position: 0 -200%;}
+#sp04{ background-position: 0 -300%;}
